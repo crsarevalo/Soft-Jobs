@@ -1,0 +1,8 @@
+
+Started GET / for :: ::1 at Thu Jan 25 2024 12:57:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 14 ms Request ID: [6d7174ae-cc5c-4123-bcec-33545f901b24]
+
+Started GET / for :: ::1 at Thu Jan 25 2024 13:02:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 15 ms Request ID: [ab66a991-99c4-469d-84e1-10a33c325d9b]
