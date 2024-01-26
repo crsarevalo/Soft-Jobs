@@ -6,7 +6,7 @@ const createUser = async ({ email, password, rol, lenguaje }) => {
   console.log("Tipo de dato de la contraseña:", typeof hashedPassword);
 
   const SQLquery = {
-    text: "INSERT INTO usuarios (email, password, rol, lenguaje) VALUES ($1, $2, $3, $4) RETURNING *",
+    text: "INSERT INTO usuarios (email, password, rol, lenguage) VALUES ($1, $2, $3, $4) RETURNING *",
     values: [email, hashedPassword, rol, lenguaje],
   };
   console.log("query:", SQLquery);
