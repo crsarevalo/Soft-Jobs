@@ -6,3 +6,71 @@ Completed: 404 message:  Time response: 14 ms Request ID: [6d7174ae-cc5c-4123-bc
 Started GET / for :: ::1 at Thu Jan 25 2024 13:02:19 GMT-0300 (hora de verano de Chile)
   Parameters in body: {}
 Completed: 404 message:  Time response: 15 ms Request ID: [ab66a991-99c4-469d-84e1-10a33c325d9b]
+
+Started GET / for :: ::1 at Thu Jan 25 2024 14:21:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 13 ms Request ID: [622cf011-a3f0-4a71-b1f3-54228a1a2de8]
+
+Started POST /?nombre=test&apellido=test&email=test@test.com&password=1234567891 for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:25:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 4 ms Request ID: [a81656ff-593e-47c1-87be-d063eeba6369]
+
+Started POST /API/V1/usuarios?nombre=test&apellido=test&email=test@test.com&password=1234567891 for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:27:16 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [a1d9fb4c-2f38-4764-99f0-9a190670bd64]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:27:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"secretpassword"}
+Completed: 404 message:  Time response: 3 ms Request ID: [e9059732-bbe0-4a6d-8e30-7e70880b886d]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:28:01 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"1234567897"}
+Completed: 404 message:  Time response: 1 ms Request ID: [56d08bf4-605e-4682-aeec-275da3a11bf4]
+
+Started POST /API/V1/usuarios/ for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:28:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"1234567897"}
+Completed: 404 message:  Time response: 2 ms Request ID: [d98d36f3-e60c-41dc-b979-d78b0bc27d2f]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:28:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"1234567897"}
+Completed: 404 message:  Time response: 2 ms Request ID: [ff33f257-54e8-452b-8212-d9c81e24d865]
+
+Started GET / for :: ::1 at Thu Jan 25 2024 14:29:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [228aac11-6b5c-40ea-a82e-dd631bec20f7]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:33:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"1234567897"}
+Completed: 404 message:  Time response: 5 ms Request ID: [21a6e951-8f0e-45fb-9530-bd1620a22b31]
+
+Started POST /API/V1/usuarios/nuevo for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:34:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"1234567897"}
+Completed: 404 message:  Time response: 5 ms Request ID: [b4e0a885-34cc-45fc-8ca0-cf93acfa9428]
+
+Started GET / for :: ::1 at Thu Jan 25 2024 14:44:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 7 ms Request ID: [aca7efa7-c90d-4c24-947d-22a1daa4bf36]
+
+Started GET / for :: ::1 at Thu Jan 25 2024 14:44:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 5 ms Request ID: [a7b1af1c-cda7-4d1d-90c3-bbb2e5383552]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:48:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"John","apellido":"Doe","email":"john.doe@example.com","password":"1234567897"}
+Completed: 404 message:  Time response: 5 ms Request ID: [27123de0-e13e-46f4-a9c5-0a8d9e8f8268]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:49:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"john.doe@example.com","password":"1234567897","rol":"admin","lenguaje":"python"}
+Completed: 404 message:  Time response: 3 ms Request ID: [800285c1-6168-4852-8b19-1c65882ff354]
+
+Started POST /API/V1 for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:52:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"john.doe@example.com","password":"1234567897","rol":"admin","lenguaje":"python"}
+Completed: 404 message:  Time response: 3 ms Request ID: [27586271-da9e-425d-a6c0-8b1c7f2d162e]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:53:01 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"john.doe@example.com","password":"1234567897","rol":"admin","lenguaje":"python"}
+Completed: 404 message:  Time response: 5 ms Request ID: [1de3e025-a6ab-4026-afe2-1fa281b8f776]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Thu Jan 25 2024 14:56:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"john.doe@example.com","password":"1234567897","rol":"admin","lenguaje":"python"}
+Completed: 404 message:  Time response: 9 ms Request ID: [ae62db8b-deaa-4c13-8af3-cdae2914e924]
