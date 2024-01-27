@@ -82,3 +82,117 @@ Completed: 400 message:  Time response: 122 ms Request ID: [c334f12e-24d5-4a52-b
 Started POST /API/V1/auth_login for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 08:36:59 GMT-0300 (hora de verano de Chile)
   Parameters in body: {"user":{"email":"john.doe@example.com","password":"5555555"}}
 Completed: 200 message:  Time response: 136 ms Request ID: [fb8ba92c-9b4b-4f99-bc08-2072e70fd381]
+
+Started GET /API/V1all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:04:59 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 9 ms Request ID: [0ddb0a8e-1d68-4ee0-9156-600ba5d9d3c2]
+
+Started GET /API/V1all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:05:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [27098b8e-ed0b-4cf6-a597-18ea767adc5c]
+
+Started GET /API/V1all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:11:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 7 ms Request ID: [5f6927e5-1597-42c4-a416-9c757f1c130f]
+
+Started GET / for :: ::1 at Sat Jan 27 2024 09:12:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 20 ms Request ID: [a50228c1-97a5-4270-9aec-ae232788fa49]
+
+Started GET /all_users_auth for :: ::1 at Sat Jan 27 2024 09:12:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 2 ms Request ID: [3deb873c-e5ea-44d1-93f6-515892012fe4]
+
+Started GET /all_users_auth for :: ::1 at Sat Jan 27 2024 09:16:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 7 ms Request ID: [f5186940-1227-4162-93a9-4b57afc2aa9d]
+
+Started GET /API/V1all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:17:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 2 ms Request ID: [0b8f0c69-84ee-461b-8c5e-3eb165e57d44]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:17:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 63 ms Request ID: [f006577a-624b-4054-8ada-f537bc961154]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:18:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Started GET /all_users_auth for :: ::1 at Sat Jan 27 2024 09:20:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 6 ms Request ID: [01918a7d-220b-41e2-a76d-f6831bffb175]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:22:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 55 ms Request ID: [db1af510-c1d6-4c23-a571-277483e44057]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:23:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 13 ms Request ID: [d2389dc6-f014-45cf-9b93-2e1693be6d21]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:23:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 6 ms Request ID: [4dfb0bac-009d-4942-bf70-b668362f7624]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:34:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 9 ms Request ID: [1d0d3901-2d4c-4df0-a47b-c6a2add114e8]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:44:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 9 ms Request ID: [59560d1b-ef09-41d7-b5bc-437d44f5442a]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:45:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 10 ms Request ID: [3242b7b2-6a81-4028-ae30-3f548ce5dd75]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:46:23 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 9 ms Request ID: [32416cb4-ba5c-4f1d-8294-6b7abf11e18a]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:46:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"john.doe@example.com","password":"5555555","rol":"admin","lenguaje":"python"}}
+Completed: 201 message:  Time response: 115 ms Request ID: [3ac38081-6858-49a0-9973-f02afa531b80]
+
+Started POST /API/V1/auth_login for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:46:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"john.doe@example.com","password":"5555555"}}
+Completed: 200 message:  Time response: 68 ms Request ID: [43a480bc-72d5-48dd-8323-441bb83178dd]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:46:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 47 ms Request ID: [9ac747d5-a676-4e88-a0ed-9b3dc3f1cd4b]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:47:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 9 ms Request ID: [6ce5648d-0586-4bad-99b3-edf9e9236b79]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:47:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 15 ms Request ID: [8e8499d4-193e-43ea-b614-d4be59311be3]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:48:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 13 ms Request ID: [842eedd6-85c0-4ea4-b007-9140e35feabd]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:48:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 5 ms Request ID: [3c81186b-a3c7-4c03-aa8b-c6c5ebf0a05d]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:48:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 6 ms Request ID: [7710df61-16da-40ed-b6db-c2064172d8f1]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:48:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 14 ms Request ID: [a1eddb4c-b1d1-4a21-b84f-a488e11cc526]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:49:26 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 47 ms Request ID: [a33d5dcf-5680-49a7-a2ec-0cf949e38ce7]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:49:30 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 7 ms Request ID: [69b56cc9-12a2-4456-a78f-981d9c488d55]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:49:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 3 ms Request ID: [17ced10c-2456-4aa2-8a30-c6673a77a4a9]

@@ -1,4 +1,14 @@
-import { createUser } from "../models/usuariosModel.js";
+import { allUsers, createUser } from "../models/usuariosModel.js";
+
+const getAllUsers = async (req, res) => {
+  try {
+    const users = await allUsers();
+    res.status(200).json({ user: users });
+  } catch (error) {
+    console.error("Error al registrar usuario:", error);
+    res.status(400).json({ mensaje: "Error obteniendo usuarios" });
+  }
+};
 
 const createNewUser = async (req, res) => {
   try {
@@ -12,4 +22,4 @@ const createNewUser = async (req, res) => {
   }
 };
 
-export { createNewUser };
+export { createNewUser, getAllUsers };
