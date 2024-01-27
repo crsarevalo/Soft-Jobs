@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(cors());
 app.use(logger());
 
-app.use("/API/V1", usuariosRoutes);
-app.use("/API/V1", loginRoutes);
+app.use("/", usuariosRoutes);
+app.use("/", loginRoutes);
 
 app.listen(PORT, () => {
   console.log(`Servidor ejecutandose en el puerto http://localhost:${PORT}`);
