@@ -196,3 +196,31 @@ Completed: 500 message:  Time response: 7 ms Request ID: [69b56cc9-12a2-4456-a78
 Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:49:40 GMT-0300 (hora de verano de Chile)
   Parameters in body: {}
 Completed: 500 message:  Time response: 3 ms Request ID: [17ced10c-2456-4aa2-8a30-c6673a77a4a9]
+
+Started GET /API/V1/all_users_auth for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 09:58:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 5 ms Request ID: [6d20197e-f6d9-4edd-9e56-906cbe2e2ccd]
+
+Started GET / for :: ::1 at Sat Jan 27 2024 10:00:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 14 ms Request ID: [6dbd8961-7d1d-4a45-a618-e4103b73dcde]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 10:11:55 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 10 ms Request ID: [d1fceae7-8498-4a5a-bd4f-a5b3919d1f65]
+
+Started POST /API/V1/usuarios for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 10:13:23 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"john.doe@example.com","password":"5555555","rol":"admin","lenguaje":"python"}}
+Completed: 201 message:  Time response: 115 ms Request ID: [6f88be5f-49da-4416-b504-20fde92e1722]
+
+Started POST /API/V1/login for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 10:13:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"john.doe@example.com","password":"5555555"}}
+Completed: 200 message:  Time response: 103 ms Request ID: [ef661879-b112-47f3-a7d9-1ca971643668]
+
+Started GET /API/V1/usuarios for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 10:14:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 8 ms Request ID: [a1b5eb62-f44b-40d7-86e8-f5a8f8d55b9a]
+
+Started GET /API/V1/usuarios for :: ::ffff:127.0.0.1 at Sat Jan 27 2024 10:14:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 38 ms Request ID: [08d269be-1aca-4c64-be1a-662aa9afd6d5]
