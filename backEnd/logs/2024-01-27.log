@@ -260,3 +260,35 @@ Started GET /usuarios for :: ::1 at Sat Jan 27 2024 10:53:34 GMT-0300 (hora de v
 Completed: 200 message:  Time response: 6 ms Request ID: [cac0c92b-6057-404f-8162-d7b3adc27c4a]
 
 Completed: 304 message:  Time response: 4 ms Request ID: [be381754-e544-49fa-8d3e-8ca2d08bd24e]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 10:59:01 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 147 ms Request ID: [fb7fe227-87c5-41e0-94f5-144d3bb2de0f]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 10:59:01 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 3 ms Request ID: [12d9b1c0-33a7-4dc1-837c-831bfd64c923]
+
+Started POST /usuarios for :: ::1 at Sat Jan 27 2024 10:59:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"docente@desafiolatam.com","password":"123456","rol":"Full Stack Developer","lenguage":"JavaScript"}}
+Completed: 201 message:  Time response: 95 ms Request ID: [974c9f35-d65b-4b88-80d4-d758ba4ea759]
+
+Started POST /login for :: ::1 at Sat Jan 27 2024 10:59:36 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"docente@desafiolatam.com","password":"123456"}}
+Completed: 200 message:  Time response: 75 ms Request ID: [41f1c8c8-683e-4eb8-bf87-08f1a70ea800]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 10:59:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 6 ms Request ID: [79ad50a1-6ebe-4f47-b4ff-0d7a4f7ab087]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 10:59:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 6 ms Request ID: [ee9f435d-2661-4dda-94f5-bf4e1fa59fb2]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 11:00:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 11:00:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 40 ms Request ID: [84b42ab1-a365-48b8-8160-075541d3a0b8]
+
+Completed: 304 message:  Time response: 5 ms Request ID: [c72d8737-a473-434d-8314-832d9920609f]
