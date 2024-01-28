@@ -34,3 +34,35 @@ Completed: 500 message:  Time response: 20 ms Request ID: [f141a936-455e-4ee2-80
 Started GET /usuarios for :: ::ffff:127.0.0.1 at Sun Jan 28 2024 11:21:19 GMT-0300 (hora de verano de Chile)
   Parameters in body: {}
 Completed: 500 message:  Time response: 9 ms Request ID: [dc39037d-97c6-4fbe-b496-89fe1f90d37b]
+
+Started POST /usuarios for :: ::ffff:127.0.0.1 at Sun Jan 28 2024 11:51:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"john.doee@xample.com","password":"5555555","rol":"admin","lenguaje":"python"}}
+Completed: 201 message:  Time response: 257 ms Request ID: [0cb76f81-e595-4865-89b3-282975841241]
+
+Started POST /login for :: ::ffff:127.0.0.1 at Sun Jan 28 2024 11:52:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"john.doe@example.com","password":"5555555"}}
+Completed: 200 message:  Time response: 134 ms Request ID: [bf7181d2-92c7-4fd9-b0a5-f65ac6bf0691]
+
+Started GET /usuarios for :: ::ffff:127.0.0.1 at Sun Jan 28 2024 11:52:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 14 ms Request ID: [871ecea0-7b56-434a-8a4e-451c66c37643]
+
+Started GET /usuarios for :: ::ffff:127.0.0.1 at Sun Jan 28 2024 11:52:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 67 ms Request ID: [f74d6a76-82f5-4925-a974-2ef1153fb0e2]
+
+Started POST /usuarios for :: ::1 at Sun Jan 28 2024 11:52:59 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"docente@desafiolatam.com","password":"123456","rol":"Full Stack Developer","lenguage":"Python"}}
+Completed: 201 message:  Time response: 238 ms Request ID: [cf880e3e-0b5e-4faa-9d95-b9c510656544]
+
+Started POST /login for :: ::1 at Sun Jan 28 2024 11:53:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"user":{"email":"docente@desafiolatam.com","password":"123456"}}
+Completed: 200 message:  Time response: 203 ms Request ID: [436dd0d5-d7ec-4154-a113-67ec61d07351]
+
+Started GET /usuarios for :: ::1 at Sun Jan 28 2024 11:53:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 8 ms Request ID: [f71b21b6-05a4-4f77-8733-e6d1ab96ab13]
+
+Started GET /usuarios for :: ::1 at Sun Jan 28 2024 11:53:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 9 ms Request ID: [857a4f93-75e2-4a22-96e9-7c9fabe059fb]
