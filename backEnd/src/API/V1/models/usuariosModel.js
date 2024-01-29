@@ -9,12 +9,12 @@ const allUsers = async () => {
   return response.rows;
 };
 
-const createUser = async ({ email, password, rol, lenguaje }) => {
+const createUser = async ({ email, password, rol, lenguage }) => {
   const hashedPassword = bcrypt.hashSync(password);
 
   const SQLquery = {
     text: "INSERT INTO usuarios (email, password, rol, lenguage) VALUES ($1, $2, $3, $4) RETURNING *",
-    values: [email, hashedPassword, rol, lenguaje],
+    values: [email, hashedPassword, rol, lenguage],
   };
   //console.log("query:", SQLquery);
 
